@@ -18,4 +18,4 @@ playback:
   alpha: 0.9
 
 paths:
-  save_dir: "./video/"
+  save_dir: "../video/"
