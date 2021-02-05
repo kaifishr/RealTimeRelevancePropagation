@@ -1,0 +1,21 @@
+lrp:
+  epsilon: 1.0e-9
+  rule: "z_plus"
+  grayscale: False
+
+model:
+  name: "vgg16" # vgg19
+  weights: "imagenet" # null (random) or "imagenet"
+
+image:
+  height: 224
+  width: 224
+  channels: 3
+
+playback:
+  record_video: True
+  display_size: 320
+  alpha: 0.9
+
+paths:
+  save_dir: "./video/"
